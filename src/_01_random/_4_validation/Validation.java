@@ -8,18 +8,43 @@ import java.util.Random;
 import javax.swing.JOptionPane;
 
 public class Validation {
-	public static void main(String[] args) {
+	for (int i=0; i<10; i++) {
 		
+		for (int i=0; i<10; i++) {	
 		Random randomMaker = new Random();
 		
-		int randomNumber = randomMaker.nextInt(5);
+		int randomNumber = randomMaker.nextInt(6);
 		
-		System.out.println(randomNumber);
+	
 
-		// 1. Use each value of randomNumber to give the user a random compliment.
 
+// 1. Use each value of randomNumber to give the user a random compliment.
+		
+if (randomNumber == 0) {
+System.out.println("you're cool");
 		// 2. Repeat all the code above 10 times
-		
+}
+if (randomNumber == 1) {
+System.out.println("you're nice");
+		// 2. Repeat all the code above 10 times
+}
+if (randomNumber == 2) {
+	System.out.println("Have a nice day");
+	// 2. Repeat all the code above 10 times
+}
+if (randomNumber == 3) {
+System.out.println("Hello!");
+		// 2. Repeat all the code above 10 times
+}
+if (randomNumber == 4) {
+System.out.println("Good afternoon");
+		// 2. Repeat all the code above 10 times
+}
+if (randomNumber == 5) {
+System.out.println("Good morning");
+		// 2. Repeat all the code above 10 times
+}
+		}
 		// 3. Find someone to test out your program. They will like it :)
 	}
 }
